@@ -5,8 +5,8 @@
 1. [Download and install docker](https://docs.docker.com/get-docker/)
    1. Verify installation: run "docker ps" in console. 
 2. [Download and install mysql workbench](https://dev.mysql.com/downloads/workbench/)
-   1. After pressing download you'll be asked to login or register, just skip it using the "﻿No thanks, just start my download." click (see pic)
-
+   1. After pressing download you'll be asked to login or register, just skip it using the "No thanks, just start my download." click (see pic)
+   <img src="https://github.com/monday-u-com/workshop-9/blob/main/pics/workpic.jpeg" width="600" height="500">
 
 
 ### Workshop DB setup
@@ -24,6 +24,7 @@ This will create a docker container running a mysql db named "mysql_workshop".
 Let's connect to the DB using mysql workbench.
 
 Create new connection in mysql workbench, configure and test your connection:
+   <img src="https://github.com/monday-u-com/workshop-9/blob/main/pics/connectpic.png" width="800" height="450">
 
 Now You should be able to see the mysql_workshop DB and run queries on it. 
 
