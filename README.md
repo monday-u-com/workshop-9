@@ -12,11 +12,11 @@
 ### Workshop DB setup
 Execute the following command to run the container with new DB:
 
-docker run --name mysql_workshop \
--p 3306:3306 \
--e MYSQL_ROOT_PASSWORD=password \
--e MYSQL_ROOT_HOST=% \
--e MYSQL_DATABASE=mysql_workshop \
+docker run --name mysql_workshop \\
+-p 3306:3306 \\
+-e MYSQL_ROOT_PASSWORD=password \\
+-e MYSQL_ROOT_HOST=% \\
+-e MYSQL_DATABASE=mysql_workshop \\
 -d mysql/mysql-server
 
 This will create a docker container running a mysql db named "mysql_workshop".
